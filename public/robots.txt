@@ -1,4 +1,12 @@
+# robots.txt for tpcreative.co
+# https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
 Allow: /
 
+# Block any future admin or private paths
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
 Sitemap: https://tpcreative.co/sitemap.xml
